@@ -28,7 +28,7 @@ body {
 
 .charcard {
   font-family: 'Chelsea Market', system-ui;
-  text-color: #ffffff;
+  color: #ffffff;
   text-shadow: 0 0 10px #fff700;
   width: 75px;
   height: 75px;
