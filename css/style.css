@@ -26,12 +26,12 @@ body {
 }
 
 .chargrid div {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-color: #65788C;
   border: 3px solid #B52F2F;
   padding: 5%;
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
 }
   
