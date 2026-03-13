@@ -10,3 +10,8 @@ body {
   margin: 8px;
   padding: 0;
 }
+
+.container {
+  display: grid;
+  
+  
