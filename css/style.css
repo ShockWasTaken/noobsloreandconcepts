@@ -23,5 +23,14 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.chargrid div {
+  width: 150px;
+  height: 150px;
+  background-color: #65788C;
+  border: 3px solid red;
+  padding: 5% 10%;
+  text-align: center;
+}
   
   
