@@ -1,20 +1,22 @@
-name: Deploy Pages Manual
+# name: Deploy Pages Manual
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-jobs:
-  build:
-    if: ${{ contains(github.event.head_commit.message, '[continue]') }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   build:
+#     if: ${{ contains(github.event.head_commit.message, '[continue]') }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-#       - name: Deploy to GitHub Pages
-#         uses: peaceiris/actions-gh-pages@v4
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           publish_dir: .
+#       - 
+
+# #       - name: Deploy to GitHub Pages
+# #         uses: peaceiris/actions-gh-pages@v4
+# #         with:
+# #           github_token: ${{ secrets.GITHUB_TOKEN }}
+# #           publish_dir: .
